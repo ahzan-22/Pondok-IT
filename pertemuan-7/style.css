@@ -1,0 +1,51 @@
+/*Universal Selector untuk mereset jarak bawaan browser*/
+* {
+  margin: 10px;
+  padding: 0;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+/*Element Selector untuk mengatur tampilan dasar halaman*/
+body {
+  background-color: aquamarine;
+  color: #000000;
+}
+h2 {
+  font-size: 24px;
+  margin: 20px 0 10px 0;
+}
+p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+/*Class Selector untuk mengelompokkan elemen yang gaya tampilannya sama*/
+.wadah-utama {
+  width: 80%;
+  margin: 20px auto;
+  background-color: white;
+  padding: 30px;
+  border: 5px solid #00d0ff;
+}
+.teks-tengah {
+  text-align: center;
+}
+.daftar-hobi {
+  margin: 10px 0 10px 30px;
+}
+.tabel-skill {
+  width: 100%;
+  text-align: center;
+}
+#foto-profil {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #4caf50;
+  display: block;
+  margin: 0 auto 15px auto;
+}
+#tombol-kirim {
+  background-color: #00ff08;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+}
