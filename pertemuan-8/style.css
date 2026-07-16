@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  background: #f9f9f9;
+  color: rgb(42, 28, 28);
+  line-height: 2;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.text-center {
+  text-align: center;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: linear-gradient(blue 20%, yellow 80%);
+}
+header {
+  background: linear-gradient(blue 20%, yellow 80%);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+header h1 {
+  color: rgb(42, 30, 30);
+  font-size: 24px;
+}
+.hero {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6)),
+    url("assets/background.jpg") center / cover fixed;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+.hero-content h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.hero-content p {
+  font-size: 18px;
+}
+.produk {
+  background: #f3e1e1;
+  padding: 40px 0;
+}
+.produk-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  background: #f1f2f6;
+  padding: 20px;
+  border-radius: 10px;
+}
+.produk-img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.produk-info {
+  flex: 1;
+}
+.produk-info h3 {
+  font-size: 24px;
+  color: #2f3640;
+  margin-bottom: 10px;
+}
+.harga {
+  font-size: 20px;
+  color: #b33939;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.keunggulan {
+  padding: 40px 0;
+}
+.keunggulan-list {
+  list-style: disc;
+  margin-left: 20px;
+  background: #fff;
+  padding: 30px 50px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+.keunggulan-list li {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.kontak {
+  background: #e1b12c;
+  padding: 50px 20px;
+  color: #2f3640;
+}
+.kontak h2 {
+  margin-bottom: 10px;
+}
+.kontak p {
+  margin-bottom: 25px;
+}
+.btn-kontak {
+  display: inline-block;
+  background: #27ae60;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+footer {
+  background: linear-gradient(rgb(60, 2, 86) 20%, rgb(0, 8, 110) 80%);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
