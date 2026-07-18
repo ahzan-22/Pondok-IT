@@ -1,33 +1,164 @@
-* { box-sizing: border-box; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin: 0; padding: 0; }
-body { background: linear-gradient(135deg, #466ecb, #3c9233); min-height: 100vh; padding: 30px; display: flex; justify-content: center; align-items: center; }
-.container { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; max-width: 900px; }
+* {
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(135deg, #466ecb, #3c9233);
+  min-height: 100vh;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 900px;
+}
 
-.card { width: 230px; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: 0.3s; display: flex; flex-direction: column; }
-.card:hover { transform: translateY(-5px); box-shadow: 0 8px 16px rgba(0,0,0,0.3); }
-.card img { width: 100%; height: 140px; object-fit: cover; }
-.card-body { padding: 15px; display: flex; flex-direction: column; flex-grow: 1; gap: 8px; font-size: 14px; }
+.card {
+  width: 230px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+.card-body {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 8px;
+  font-size: 14px;
+}
 
-button { background: #466ecb; color: white; padding: 10px; border: none; border-radius: 5px; margin-top: auto; cursor: pointer; transition: 0.2s; position: relative; z-index: 10; }
-button:hover { background: #35549d; }
+button {
+  background: #466ecb;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: auto;
+  cursor: pointer;
+  transition: 0.2s;
+  position: relative;
+  z-index: 10;
+}
+button:hover {
+  background: #35549d;
+}
 
-.btn-outline { background: transparent; color: #f3072e; border: 2px solid #0e012d; }
-.btn-outline:hover { background: #ff0565; color: white; }
+.btn-outline {
+  background: transparent;
+  color: #f3072e;
+  border: 2px solid #0e012d;
+}
+.btn-outline:hover {
+  background: #ff0565;
+  color: white;
+}
 
-.price { color: red; font-weight: bold; font-size: 16px; }
-.tag { background: #22c55e; color: white; padding: 4px 8px; border-radius: 10px; font-size: 12px; width: fit-content; }
-.read-more { color: #466ecb; text-decoration: none; margin-top: auto; font-weight: bold; transition: 0.2s; position: relative; z-index: 10; }
-.read-more:hover { color: #1d4ed8; }
+.price {
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+}
+.tag {
+  background: #22c55e;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  width: fit-content;
+}
+.read-more {
+  color: #466ecb;
+  text-decoration: none;
+  margin-top: auto;
+  font-weight: bold;
+  transition: 0.2s;
+  position: relative;
+  z-index: 10;
+}
+.read-more:hover {
+  color: #1d4ed8;
+}
 
-.card-profile { text-align: center; }
-.profile-img-wrapper { background: linear-gradient(45deg, #e5ff00, #ff9500); height: 70px; margin-bottom: 35px; position: relative; }
-.card-profile img { width: 70px; height: 70px; border-radius: 50%; border: 3px solid white; position: absolute; bottom: -35px; left: 50%; transform: translateX(-50%); }
-.role { color: #466ecb; font-weight: bold; }
+.card-profile {
+  text-align: center;
+}
+.profile-img-wrapper {
+  background: linear-gradient(45deg, #e5ff00, #ff9500);
+  height: 70px;
+  margin-bottom: 35px;
+  position: relative;
+}
+.card-profile img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid white;
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.role {
+  color: #466ecb;
+  font-weight: bold;
+}
 
-.card-promo { position: relative; }
-.badge { background: red; color: white; font-size: 12px; padding: 5px 10px; position: absolute; top: 10px; left: 10px; border-radius: 15px; z-index: 2; }
-.voucher-code { border: 1px dashed orange; background: #fff5e6; padding: 8px; text-align: center; font-weight: bold; }
+.card-promo {
+  position: relative;
+}
+.badge {
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 5px 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 15px;
+  z-index: 2;
+}
+.voucher-code {
+  border: 1px dashed orange;
+  background: #fff5e6;
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+}
 
-.card-glass { background: rgba(213, 104, 104, 0.2); backdrop-filter: blur(8px); border: 1px solid rgba(255, 255, 255, 0.5); }
-.card-glass h2, .card-glass p { color: white; }
-.card-glass button { background: rgba(255,255,255,0.9); color: #1e293b; }
-.card-glass button:hover { background: rgb(54, 88, 155); }
+.card-glass {
+  background: rgba(213, 104, 104, 0.2);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.card-glass h2,
+.card-glass p {
+  color: white;
+}
+.card-glass button {
+  background: rgba(255, 255, 255, 0.9);
+  color: #1e293b;
+}
+.card-glass button:hover {
+  background: rgb(54, 88, 155);
+}
