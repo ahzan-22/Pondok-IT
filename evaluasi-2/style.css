@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+body {
+  background-color: #f7f9fc;
+}
+
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo h2 {
+  color: #181717;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ff5722;
+}
+
+.login-btn button {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #111010;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 70px 40px;
+}
+
+.hero-teks {
+  max-width: 450px;
+}
+
+.hero-teks h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hero-teks p {
+  margin-bottom: 25px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #d1d8e0;
+}
+
+.btn-utama {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.produk {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.judul-section {
+  margin-bottom: 50px;
+  color: #1a2b4c;
+  font-size: 28px;
+}
+
+.daftar-produk {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.kartu-produk {
+  background-color: white;
+  width: 280px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.kartu-produk img {
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.kartu-produk h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.harga {
+  color: #ff5722;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.deskripsi {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.btn-beli {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #0c172c;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 30px;
+}
+
+.kontak {
+  margin-bottom: 20px;
+}
+
+.kontak h3 {
+  margin-bottom: 10px;
+}
+
+.kontak p {
+  font-size: 14px;
+  color: #d1d8e0;
+  margin-bottom: 5px;
+}
+
+.copy p {
+  font-size: 12px;
+  color: #888;
+  margin-top: 20px;
+}
